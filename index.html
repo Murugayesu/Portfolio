@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MURUGAYESU A — AI/ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="glow-effect" class="glow-effect"></div>
+    
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <i data-lucide="map-pin" class="icon-sm"></i> Chennai, India
+        </div>
+        <div class="top-bar-right" id="clock">
+            --:--:--
+        </div>
+    </div>
+
+    <!-- Floating Navbar -->
+    <nav class="floating-nav">
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active" data-target="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-target="about">About</a></li>
+            <li><a href="#projects" class="nav-link" data-target="projects">Projects</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <i data-lucide="sun" id="theme-icon-light" style="display: none;"></i>
+            <i data-lucide="moon" id="theme-icon-dark"></i>
+        </button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="content-area">
+        <!-- Content injected via JS -->
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Murugayesu" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com/in/muruga-yesu-754034326" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:murugayesu53@gmail.com" target="_blank" aria-label="Email"><i data-lucide="mail"></i></a>
+        </div>
+        <p class="footer-text">&copy; 2026 Murugayesu A. Inspired by manpatel.me</p>
+    </footer>
+
+    <script src="js/content.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
